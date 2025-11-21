@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ['Playfair Display', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -58,9 +62,10 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         brand: {
-          red: "hsl(var(--brand-red))",
+          purple: "hsl(var(--brand-purple))",
           cream: "hsl(var(--brand-cream))",
           green: "hsl(var(--brand-green))",
+          orange: "hsl(var(--brand-orange))",
           dark: "hsl(var(--brand-dark))",
         },
       },

@@ -1,71 +1,73 @@
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone } from "lucide-react";
-import heroImage from "@/assets/hero-pizza.jpg";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80" />
-      </div>
-
-      {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-white">
-            <span className="inline-block bg-primary px-8 py-4 rounded-2xl shadow-2xl transform -rotate-2">
-              Fromage
-            </span>
-          </h1>
-          <p className="text-xl md:text-3xl text-secondary mb-4 font-light tracking-wide">
-            Authentic Italian Pizza in Delhi
-          </p>
-          <p className="text-lg md:text-xl text-secondary/90 mb-12 max-w-2xl mx-auto">
-            Handcrafted pizzas with love, fresh ingredients, and traditional recipes
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 rounded-full shadow-lg transition-all hover:scale-105"
-            >
-              Order Now
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="bg-secondary/10 backdrop-blur-sm border-secondary text-secondary hover:bg-secondary hover:text-foreground text-lg px-8 py-6 rounded-full transition-all hover:scale-105"
-            >
-              View Menu
-            </Button>
-          </div>
-
-          {/* Location & Contact */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-secondary">
-            <div className="flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              <span className="text-sm md:text-base">Lajpat Nagar, Delhi</span>
+    <section className="relative min-h-screen pt-24 pb-16 overflow-hidden bg-background">
+      <div className="container mx-auto px-4">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Left Content */}
+          <div className="space-y-8">
+            <div className="space-y-6">
+              <h1 className="text-7xl md:text-8xl lg:text-9xl font-serif leading-none">
+                <span className="block text-foreground">Authentic</span>
+                <span className="block text-foreground italic relative">
+                  Food
+                  <svg className="absolute -right-8 top-1/2 transform -translate-y-1/2 w-16 h-16" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" strokeWidth="2" className="text-foreground"/>
+                    <circle cx="35" cy="45" r="3" fill="currentColor" className="text-foreground"/>
+                    <circle cx="65" cy="45" r="3" fill="currentColor" className="text-foreground"/>
+                    <path d="M 35 65 Q 50 75 65 65" fill="none" stroke="currentColor" strokeWidth="2" className="text-foreground"/>
+                  </svg>
+                </span>
+              </h1>
+              <h2 className="text-5xl md:text-6xl font-serif text-foreground">
+                Dishes
+              </h2>
             </div>
-            <div className="flex items-center gap-2">
-              <Phone className="w-5 h-5 text-primary" />
-              <span className="text-sm md:text-base">Dine-in • Delivery • Takeaway</span>
+
+            {/* Decorative Circle with Text */}
+            <div className="flex items-center gap-4">
+              <div className="relative w-32 h-32 rounded-full border-2 border-foreground flex items-center justify-center">
+                <div className="text-center">
+                  <p className="text-xs font-medium leading-tight">
+                    PREPARED WITH LOVE FOR YOU
+                  </p>
+                </div>
+              </div>
+              <div className="w-16 h-0.5 bg-foreground"></div>
             </div>
           </div>
-        </div>
-      </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
-        <div className="w-6 h-10 border-2 border-secondary rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-secondary rounded-full mt-2 animate-bounce" />
+          {/* Right Content - Food Images */}
+          <div className="relative">
+            {/* Main Image Card */}
+            <div className="relative bg-brand-purple rounded-3xl p-8 shadow-2xl transform rotate-3">
+              <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=600&fit=crop"
+                  alt="Delicious pasta dish"
+                  className="w-full h-full object-cover aspect-square"
+                />
+              </div>
+            </div>
+
+            {/* Secondary Image Card */}
+            <div className="absolute -top-8 -right-8 bg-white rounded-2xl p-4 shadow-xl transform -rotate-6 w-48">
+              <img 
+                src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop"
+                alt="Fresh salad"
+                className="w-full h-full object-cover aspect-square rounded-xl"
+              />
+            </div>
+
+            {/* Text Card */}
+            <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl p-6 shadow-xl max-w-xs">
+              <p className="text-sm font-serif italic text-foreground">
+                Authentic Dishes From Home Kitchens In Your Area
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

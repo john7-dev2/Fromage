@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# Fromage - Authentic Italian Pizza Restaurant
 
-## Project info
+Experience authentic Italian pizza in Lajpat Nagar, Delhi. Handcrafted pizzas with fresh ingredients, traditional recipes, and passion in every bite.
 
-**URL**: https://lovable.dev/projects/39f6c51a-60b9-46d5-8fc6-610743c3c81c
+## About
 
-## How can I edit this code?
+Fromage is a modern web application for an authentic Italian pizza restaurant in Delhi. Built with React, TypeScript, and modern web technologies, it provides a seamless experience for discovering our menu and ordering delicious pizzas.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- 🏠 **Home Page** - Beautiful landing page with hero section and featured dishes
+- 📖 **About Page** - Learn about our story and mission
+- 🍽️ **Eat Page** - Browse our full menu by category (Breakfast, Lunch, Dinner, Desserts)
+- 🛡️ **Health & Safety** - Detailed information about our safety standards
+- 👨‍🍳 **Cook Page** - Information for chefs interested in joining our platform
+- 📱 **Responsive Design** - Works perfectly on all devices
+- 🎨 **Modern UI** - Clean, elegant design with smooth animations
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/39f6c51a-60b9-46d5-8fc6-610743c3c81c) and start prompting.
+## Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Vite** - Fast build tool and dev server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI library with React Router for navigation
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful, accessible component library
+- **Lucide React** - Icon library
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v16 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd Fromage
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components (Home, About, Eat, etc.)
+├── lib/           # Utility functions
+└── assets/        # Images and static assets
+```
 
-This project is built with:
+## Contact
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Instagram: [@fromage.delhi](https://instagram.com/fromage.delhi)
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/39f6c51a-60b9-46d5-8fc6-610743c3c81c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Location: GROUND FLOOR, C-106, Block C, Lajpat Nagar I, Delhi 110024
