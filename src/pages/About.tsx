@@ -12,10 +12,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-6xl md:text-7xl font-serif mb-6 text-foreground">
-              About Fromage
+              About Pizzetta Bella
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Authentic Italian Pizza in Lajpat Nagar, Delhi
+              Artisan Italian Pizzeria in Mumbai
             </p>
           </div>
         </div>
@@ -52,18 +52,19 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  At Fromage, we believe pizza is more than just food—it's an experience, 
-                  a celebration, and a way to bring people together.
+                  At Pizzetta Bella, we bring the authentic flavors of Naples to Mumbai. Our journey 
+                  began with a simple passion: to create the perfect pizza using time-honored 
+                  Italian techniques and the finest ingredients.
                 </p>
                 <p>
-                  Located in the heart of Lajpat Nagar, Delhi, we've dedicated ourselves 
-                  to crafting authentic Italian pizzas using traditional methods and the 
-                  finest ingredients.
+                  Located in the vibrant Phoenix Market City, we've built our reputation on 
+                  authenticity. Our dough is made fresh daily using imported Italian flour, 
+                  fermented for 48 hours, and baked in our custom-built wood-fired oven at 485°C.
                 </p>
                 <p>
-                  Every pizza is handmade with love, topped with premium ingredients, 
-                  and baked to perfection in our specialty ovens. From classic Margherita 
-                  to creative specialty pies, each bite tells a story of passion and craftsmanship.
+                  Every ingredient tells a story—from San Marzano tomatoes grown in volcanic soil 
+                  to buffalo mozzarella from Campania. Our chefs, trained in Naples, bring decades 
+                  of expertise to every pizza. We don't just serve food; we share a piece of Italian culture.
                 </p>
               </div>
             </div>
@@ -76,24 +77,24 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-6xl font-bold text-primary mb-4">180+</div>
-              <h3 className="text-xl font-semibold mb-2">Home Chefs</h3>
+              <div className="text-6xl font-bold text-primary mb-4">15K+</div>
+              <h3 className="text-xl font-semibold mb-2">Happy Customers</h3>
               <p className="text-muted-foreground">
-                Professional home chefs ready to serve you
+                Satisfied pizza lovers served since 2018
               </p>
             </div>
             <div className="text-center">
-              <div className="text-6xl font-bold text-accent mb-4">500+</div>
-              <h3 className="text-xl font-semibold mb-2">Signature Dishes</h3>
+              <div className="text-6xl font-bold text-accent mb-4">25+</div>
+              <h3 className="text-xl font-semibold mb-2">Artisan Pizzas</h3>
               <p className="text-muted-foreground">
-                Unique recipes from around the world
+                Handcrafted varieties using authentic recipes
               </p>
             </div>
             <div className="text-center">
-              <div className="text-6xl font-bold text-brand-orange mb-4">24/7</div>
-              <h3 className="text-xl font-semibold mb-2">Available</h3>
+              <div className="text-6xl font-bold text-brand-orange mb-4">485°C</div>
+              <h3 className="text-xl font-semibold mb-2">Wood-Fired Oven</h3>
               <p className="text-muted-foreground">
-                Order anytime, anywhere
+                Perfect temperature for authentic Neapolitan pizza
               </p>
             </div>
           </div>
@@ -115,17 +116,18 @@ const About = () => {
                     <div>
                       <h3 className="font-semibold text-lg mb-2">Location</h3>
                       <p className="text-muted-foreground">
-                        GROUND FLOOR, C-106, Block C<br />
-                        Lajpat Nagar I, Lajpat Nagar<br />
-                        Delhi, India 110024
+                        Shop 12, Phoenix Market City<br />
+                        Kurla West<br />
+                        Mumbai, Maharashtra 400070
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold text-lg mb-2">Service</h3>
+                      <h3 className="font-semibold text-lg mb-2">Hours</h3>
                       <p className="text-muted-foreground">
+                        Mon-Sun: 12:00 PM - 11:00 PM<br />
                         Dine-in • Delivery • Takeaway
                       </p>
                     </div>
@@ -135,7 +137,9 @@ const About = () => {
                     <div>
                       <h3 className="font-semibold text-lg mb-2">Contact</h3>
                       <p className="text-muted-foreground">
-                        Instagram: @fromage.delhi
+                        Phone: +91 98765 43210<br />
+                        Email: hello@pizzettabella.com<br />
+                        Instagram: @pizzettabella.mumbai
                       </p>
                     </div>
                   </div>

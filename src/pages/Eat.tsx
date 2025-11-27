@@ -5,43 +5,53 @@ import { Star, Clock, Flame } from "lucide-react";
 
 const menuCategories = [
   {
-    name: "Breakfast",
-    description: "Start your day right",
-    image: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=400&h=400&fit=crop",
+    name: "Classic Pizzas",
+    description: "Traditional Italian favorites",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=400&fit=crop",
     dishes: [
-      { name: "Classic Pancakes", price: "₹249", rating: 4.8 },
-      { name: "Avocado Toast", price: "₹299", rating: 4.9 },
-      { name: "Breakfast Burrito", price: "₹349", rating: 4.7 },
+      { name: "Margherita Classica", price: "₹599", rating: 4.9, description: "Buffalo mozzarella, San Marzano tomatoes, fresh basil" },
+      { name: "Marinara", price: "₹499", rating: 4.7, description: "Tomato sauce, garlic, oregano, extra virgin olive oil" },
+      { name: "Napoletana", price: "₹649", rating: 4.8, description: "Tomatoes, mozzarella, anchovies, oregano, olive oil" },
     ]
   },
   {
-    name: "Lunch",
-    description: "Hearty midday meals",
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=400&fit=crop",
+    name: "Signature Pizzas",
+    description: "Chef's special creations",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=400&fit=crop",
     dishes: [
-      { name: "Pasta Primavera", price: "₹449", rating: 4.9 },
-      { name: "Grilled Chicken Bowl", price: "₹499", rating: 4.8 },
-      { name: "Mediterranean Wrap", price: "₹399", rating: 4.7 },
+      { name: "Truffle Mushroom Delight", price: "₹899", rating: 4.9, description: "Wild mushrooms, truffle oil, mozzarella, parmesan" },
+      { name: "Prosciutto e Rucola", price: "₹849", rating: 4.9, description: "Parma prosciutto, arugula, cherry tomatoes, parmesan" },
+      { name: "Quattro Formaggi", price: "₹799", rating: 4.8, description: "Gorgonzola, mozzarella, parmesan, fontina cheese blend" },
     ]
   },
   {
-    name: "Dinner",
-    description: "Evening delights",
-    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=400&fit=crop",
+    name: "Meat Lovers",
+    description: "For the carnivores",
+    image: "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=400&h=400&fit=crop",
     dishes: [
-      { name: "Butter Chicken", price: "₹549", rating: 4.9 },
-      { name: "Seafood Paella", price: "₹699", rating: 4.8 },
-      { name: "Vegetable Stir Fry", price: "₹449", rating: 4.7 },
+      { name: "Diavola Piccante", price: "₹749", rating: 4.9, description: "Spicy salami, jalapeños, chili flakes, mozzarella" },
+      { name: "Carne Supreme", price: "₹899", rating: 4.8, description: "Italian sausage, pepperoni, bacon, ham, mozzarella" },
+      { name: "BBQ Chicken", price: "₹799", rating: 4.7, description: "Grilled chicken, BBQ sauce, red onions, cilantro" },
+    ]
+  },
+  {
+    name: "Vegetarian Delights",
+    description: "Fresh garden flavors",
+    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=400&fit=crop",
+    dishes: [
+      { name: "Vegetariana Suprema", price: "₹699", rating: 4.8, description: "Zucchini, bell peppers, eggplant, artichokes, sun-dried tomatoes" },
+      { name: "Capricciosa", price: "₹749", rating: 4.7, description: "Mushrooms, artichokes, olives, ham, mozzarella" },
+      { name: "Pesto Primavera", price: "₹729", rating: 4.8, description: "Basil pesto, cherry tomatoes, pine nuts, fresh mozzarella" },
     ]
   },
   {
     name: "Desserts",
-    description: "Sweet endings",
+    description: "Sweet Italian endings",
     image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=400&fit=crop",
     dishes: [
-      { name: "Chocolate Lava Cake", price: "₹299", rating: 4.9 },
-      { name: "Tiramisu", price: "₹349", rating: 4.8 },
-      { name: "Fruit Tart", price: "₹279", rating: 4.7 },
+      { name: "Tiramisu Classico", price: "₹349", rating: 4.9, description: "Espresso-soaked ladyfingers, mascarpone, cocoa" },
+      { name: "Panna Cotta", price: "₹299", rating: 4.8, description: "Vanilla cream custard with berry compote" },
+      { name: "Cannoli Siciliani", price: "₹329", rating: 4.7, description: "Crispy pastry shells filled with sweet ricotta" },
     ]
   }
 ];
@@ -59,7 +69,7 @@ const Eat = () => {
               Our Menu
             </h1>
             <p className="text-xl leading-relaxed opacity-90">
-              Explore our diverse menu of authentic Italian pizzas and delicious dishes
+              Authentic wood-fired pizzas crafted with imported Italian ingredients
             </p>
           </div>
         </div>
@@ -161,7 +171,7 @@ const Eat = () => {
               Ready to Order?
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Experience authentic home-cooked meals delivered to your door
+              Experience the true taste of Naples, delivered fresh to your door
             </p>
             <button className="bg-primary hover:bg-primary/90 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all hover:scale-105 shadow-lg">
               Browse Full Menu

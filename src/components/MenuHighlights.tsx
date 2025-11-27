@@ -4,23 +4,23 @@ import freshIngredientsImage from "@/assets/fresh-ingredients.jpg";
 
 const menuItems = [
   {
-    name: "Margherita",
-    description: "Classic tomato sauce, fresh mozzarella, basil, and olive oil",
-    price: "₹399",
+    name: "Margherita Classica",
+    description: "San Marzano tomatoes, buffalo mozzarella, fresh basil, extra virgin olive oil",
+    price: "₹599",
     image: pizzaSliceImage,
     tag: "Classic",
   },
   {
-    name: "Pepperoni Paradise",
-    description: "Premium pepperoni, mozzarella, tomato sauce, oregano",
-    price: "₹549",
+    name: "Prosciutto e Rucola",
+    description: "Parma prosciutto, arugula, cherry tomatoes, parmesan shavings, balsamic glaze",
+    price: "₹849",
     image: pizzaSliceImage,
-    tag: "Popular",
+    tag: "Signature",
   },
   {
-    name: "Veggie Supreme",
-    description: "Bell peppers, mushrooms, onions, olives, tomatoes, mozzarella",
-    price: "₹499",
+    name: "Vegetariana Suprema",
+    description: "Grilled zucchini, bell peppers, eggplant, artichokes, sun-dried tomatoes, mozzarella",
+    price: "₹699",
     image: freshIngredientsImage,
     tag: "Veggie",
   },

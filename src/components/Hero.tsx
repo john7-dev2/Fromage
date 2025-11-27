@@ -12,7 +12,7 @@ const Hero = () => {
               <h1 className="text-7xl md:text-8xl lg:text-9xl font-serif leading-none">
                 <span className="block text-foreground">Authentic</span>
                 <span className="block text-foreground italic relative">
-                  Food
+                  Italian
                   <svg className="absolute -right-8 top-1/2 transform -translate-y-1/2 w-16 h-16" viewBox="0 0 100 100">
                     <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" strokeWidth="2" className="text-foreground"/>
                     <circle cx="35" cy="45" r="3" fill="currentColor" className="text-foreground"/>
@@ -22,7 +22,7 @@ const Hero = () => {
                 </span>
               </h1>
               <h2 className="text-5xl md:text-6xl font-serif text-foreground">
-                Dishes
+                Pizza
               </h2>
             </div>
 
@@ -31,7 +31,7 @@ const Hero = () => {
               <div className="relative w-32 h-32 rounded-full border-2 border-foreground flex items-center justify-center">
                 <div className="text-center">
                   <p className="text-xs font-medium leading-tight">
-                    PREPARED WITH LOVE FOR YOU
+                    WOOD-FIRED TO PERFECTION
                   </p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Hero = () => {
             {/* Text Card */}
             <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl p-6 shadow-xl max-w-xs">
               <p className="text-sm font-serif italic text-foreground">
-                Authentic Dishes From Home Kitchens In Your Area
+                Handcrafted Neapolitan Pizza Made With Imported Italian Ingredients
               </p>
             </div>
           </div>

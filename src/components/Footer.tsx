@@ -8,35 +8,35 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-3xl font-serif font-bold mb-4 text-background">
-              Fromage
+              Pizzetta Bella
             </h3>
             <p className="text-background/70 text-sm leading-relaxed">
-              Authentic Italian pizza in Lajpat Nagar, Delhi. Handcrafted with passion, served with love.
+              Artisan Italian pizzeria in Mumbai. Wood-fired perfection using authentic Neapolitan techniques and imported ingredients.
             </p>
           </div>
 
           {/* Our Menus */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-background">Our Menus</h4>
+            <h4 className="text-lg font-semibold mb-4 text-background">Our Pizzas</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#breakfast" className="text-background/70 hover:text-background transition-colors text-sm">
-                  Breakfast
+                <a href="#classic" className="text-background/70 hover:text-background transition-colors text-sm">
+                  Classic Pizzas
                 </a>
               </li>
               <li>
-                <a href="#lunch" className="text-background/70 hover:text-background transition-colors text-sm">
-                  Lunch
+                <a href="#signature" className="text-background/70 hover:text-background transition-colors text-sm">
+                  Signature Pizzas
                 </a>
               </li>
               <li>
-                <a href="#dinner" className="text-background/70 hover:text-background transition-colors text-sm">
-                  Dinner
+                <a href="#meat" className="text-background/70 hover:text-background transition-colors text-sm">
+                  Meat Lovers
                 </a>
               </li>
               <li>
-                <a href="#desserts" className="text-background/70 hover:text-background transition-colors text-sm">
-                  Desserts
+                <a href="#vegetarian" className="text-background/70 hover:text-background transition-colors text-sm">
+                  Vegetarian
                 </a>
               </li>
             </ul>
@@ -90,19 +90,19 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60 text-sm">
-            © {new Date().getFullYear()} Fromage. All rights reserved.
+            © {new Date().getFullYear()} Pizzetta Bella. All rights reserved.
           </p>
           
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a 
-              href="https://instagram.com/fromage.delhi" 
+              href="https://instagram.com/pizzettabella.mumbai" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-background/70 hover:text-background transition-colors flex items-center gap-2"
             >
               <Instagram className="w-5 h-5" />
-              <span className="text-sm">@fromage.delhi</span>
+              <span className="text-sm">@pizzettabella.mumbai</span>
             </a>
             <a href="#" className="text-background/70 hover:text-background transition-colors">
               <Facebook className="w-5 h-5" />

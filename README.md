@@ -1,20 +1,21 @@
-# Fromage - Authentic Italian Pizza Restaurant
+# Pizzetta Bella - Artisan Italian Pizzeria
 
-Experience authentic Italian pizza in Lajpat Nagar, Delhi. Handcrafted pizzas with fresh ingredients, traditional recipes, and passion in every bite.
+🍕 Experience the authentic taste of Naples in the heart of Mumbai. Handcrafted pizzas made with imported Italian ingredients, wood-fired to perfection, and served with passion.
 
 ## About
 
-Fromage is a modern web application for an authentic Italian pizza restaurant in Delhi. Built with React, TypeScript, and modern web technologies, it provides a seamless experience for discovering our menu and ordering delicious pizzas.
+Pizzetta Bella is a premium Italian pizzeria web application showcasing our artisan pizza collection. Built with React, TypeScript, and modern web technologies, it delivers an elegant browsing experience for pizza lovers seeking authentic Italian flavors. Our platform features an extensive menu, chef profiles, and seamless ordering capabilities.
 
 ## Features
 
-- 🏠 **Home Page** - Beautiful landing page with hero section and featured dishes
-- 📖 **About Page** - Learn about our story and mission
-- 🍽️ **Eat Page** - Browse our full menu by category (Breakfast, Lunch, Dinner, Desserts)
-- 🛡️ **Health & Safety** - Detailed information about our safety standards
-- 👨‍🍳 **Cook Page** - Information for chefs interested in joining our platform
-- 📱 **Responsive Design** - Works perfectly on all devices
-- 🎨 **Modern UI** - Clean, elegant design with smooth animations
+- 🏠 **Home Page** - Stunning hero section with featured signature pizzas and chef highlights
+- 📖 **About Page** - Our story, mission, and commitment to authentic Italian cuisine
+- 🍽️ **Menu Page** - Complete menu organized by meal times with ratings and pricing
+- 🛡️ **Health & Safety** - Comprehensive hygiene and safety protocols
+- 👨‍🍳 **Join Our Team** - Career opportunities for passionate chefs and food enthusiasts
+- 📱 **Fully Responsive** - Optimized experience across all devices and screen sizes
+- 🎨 **Modern Design** - Beautiful UI with smooth animations and intuitive navigation
+- ⭐ **Customer Reviews** - Real ratings and feedback from our community
 
 ## Technologies Used
 
@@ -39,7 +40,7 @@ Fromage is a modern web application for an authentic Italian pizza restaurant in
 git clone <YOUR_GIT_URL>
 
 # Navigate to the project directory
-cd Fromage
+cd Pizzetta-Bella
 
 # Install dependencies
 npm install
@@ -48,7 +49,7 @@ npm install
 npm run dev
 ```
 
-The application will be available at `http://localhost:8080`
+The application will be available at `http://localhost:5173`
 
 ## Available Scripts
 
@@ -69,6 +70,16 @@ src/
 
 ## Contact
 
-Instagram: [@fromage.delhi](https://instagram.com/fromage.delhi)
+📍 **Location:** Shop 12, Phoenix Market City, Kurla West, Mumbai 400070
 
-Location: GROUND FLOOR, C-106, Block C, Lajpat Nagar I, Delhi 110024
+📞 **Phone:** +91 98765 43210
+
+📧 **Email:** hello@pizzettabella.com
+
+📱 **Instagram:** [@pizzettabella.mumbai](https://instagram.com/pizzettabella.mumbai)
+
+🌐 **Website:** www.pizzettabella.com
+
+## License
+
+MIT License - Feel free to use this project for learning and development purposes.

@@ -1,7 +1,9 @@
 {
-  "name": "fromage",
+  "name": "pizzetta-bella",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "description": "Premium Italian Pizzeria - Artisan wood-fired pizzas with authentic Italian flavors",
+  "author": "Pizzetta Bella",
   "type": "module",
   "scripts": {
     "dev": "vite",

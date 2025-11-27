@@ -3,25 +3,28 @@ import { Star } from "lucide-react";
 
 const dishes = [
   {
-    name: "Walnut Green Bean With Tahini",
-    chef: "Apple Green",
-    rating: 4.8,
-    price: "₹399",
-    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=600&fit=crop"
-  },
-  {
-    name: "Fusilli Vegan Soup Over Dry Spicy Roasted Chicken",
-    chef: "Orange Delight",
+    name: "Truffle Mushroom Delight",
+    chef: "Chef Marco Rossi",
     rating: 4.9,
-    price: "₹549",
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=600&fit=crop"
+    price: "₹899",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=600&fit=crop",
+    description: "Wild mushrooms, truffle oil, mozzarella, parmesan"
   },
   {
-    name: "Carrot Eggs Salad Citrus Taco On Top",
-    chef: "Green Fresh",
-    rating: 4.7,
-    price: "₹449",
-    image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&h=600&fit=crop"
+    name: "Quattro Formaggi",
+    chef: "Chef Isabella Romano",
+    rating: 4.8,
+    price: "₹799",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&h=600&fit=crop",
+    description: "Four cheese blend with gorgonzola, mozzarella, parmesan, fontina"
+  },
+  {
+    name: "Diavola Piccante",
+    chef: "Chef Antonio Bianchi",
+    rating: 4.9,
+    price: "₹749",
+    image: "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=600&h=600&fit=crop",
+    description: "Spicy salami, jalapeños, chili flakes, mozzarella"
   }
 ];
 
@@ -32,10 +35,10 @@ const PopularDishes = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-serif mb-4 text-foreground">
-            Most Popular Dishes
+            Customer Favorites
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Discover the most loved dishes from our talented home chefs
+            Our most-ordered artisan pizzas, crafted by master Italian chefs
           </p>
         </div>
 
@@ -82,7 +85,7 @@ const PopularDishes = () => {
         {/* View All Button */}
         <div className="text-center mt-12">
           <button className="bg-foreground hover:bg-foreground/90 text-background px-8 py-4 rounded-full text-lg font-semibold transition-all hover:scale-105 shadow-lg">
-            View All Dishes
+            View Full Menu
           </button>
         </div>
       </div>

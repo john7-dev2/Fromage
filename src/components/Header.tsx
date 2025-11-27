@@ -9,7 +9,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <h1 className="text-3xl font-serif font-bold text-foreground">
-              Fromage
+              Pizzetta Bella
             </h1>
           </Link>
 

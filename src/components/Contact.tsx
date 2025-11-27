@@ -5,22 +5,22 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: ["GROUND FLOOR, C-106, Block C", "Lajpat Nagar I, Lajpat Nagar", "Delhi, India 110024"],
+    details: ["Shop 12, Phoenix Market City", "Kurla West", "Mumbai, Maharashtra 400070"],
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: ["Dine-in • Delivery • Takeaway", "Order your favorite pizza today"],
+    details: ["+91 98765 43210", "hello@pizzettabella.com", "Dine-in • Delivery • Takeaway"],
   },
   {
     icon: Clock,
     title: "Opening Hours",
-    details: ["Monday - Sunday", "11:00 AM - 11:00 PM"],
+    details: ["Monday - Sunday", "12:00 PM - 11:00 PM", "Last order: 10:30 PM"],
   },
   {
     icon: Instagram,
     title: "Follow Us",
-    details: ["@fromage.delhi", "1,069 followers"],
+    details: ["@pizzettabella.mumbai", "Share your pizza moments", "#PizzettaBella"],
   },
 ];
 
@@ -33,7 +33,7 @@ const Contact = () => {
             Find Us
           </h2>
           <p className="text-xl text-muted-foreground">
-            Come visit us or get it delivered to your doorstep
+            Visit our pizzeria or enjoy authentic Italian pizza at home
           </p>
         </div>
 
@@ -63,10 +63,10 @@ const Contact = () => {
           <div className="text-center">
             <MapPin className="w-16 h-16 text-primary mx-auto mb-4" />
             <p className="text-xl font-semibold text-foreground mb-2">
-              Lajpat Nagar, Delhi
+              Phoenix Market City, Mumbai
             </p>
             <p className="text-muted-foreground">
-              C-106, Block C, Lajpat Nagar I
+              Shop 12, Kurla West, Mumbai 400070
             </p>
           </div>
         </div>
